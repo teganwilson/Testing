@@ -1,3 +1,5 @@
+Tegan Wilson
+
 Toast object:
     Is created plain
     Can be toasted
