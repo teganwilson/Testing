@@ -1,0 +1,20 @@
+Toast object:
+    Is created plain
+    Can be toasted
+    Can have toppings added to it
+    Can return current toppings and current toastiness
+    Can be cleared (for use with Tory class)
+
+Tory object:
+    Creates the criteria to "judge" toast
+        Randomly creates a Toast object to be used as the criteria
+        To do this, Tory clears the toast used last
+    Takes a toast object (the user's) and "judges" based on the criteria
+    Tory HAS A Toast object that it creates as its criteria
+    Can return the current criteria
+    
+Questions:
+    Should we create a toppings class? (probably no)
+    Currently, Tory HAS A Toast object to judge upon and create criteria with. Is this good, or should we be doing something else?
+    Where will graphics stuff be dealt with? Should there be a graphical component of the model, or does the view deal with that itself?
+    
